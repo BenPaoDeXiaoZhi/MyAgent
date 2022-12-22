@@ -1,8 +1,10 @@
 import agent
+import websocket
 
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':  # an example | 一个例子
-    agent = agent.agent()   # summon agent | 生成agent(代理机器人)
+    ws = websocket.WebSocket(19143)
+    agent = agent.Agent(ws)   # summon agent | 生成agent(代理机器人)
     agent.tp(y = "~3")      # tp agent to ~~3~ | 将agent传送到~~3~
     for k in range(3):
         for j in range(5):
