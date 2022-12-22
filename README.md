@@ -1,5 +1,5 @@
 # MyAgent
-一个基于python的简单库（请使用python3.11）
+一个基于python的简单库（请使用python3.11）\n
 使用方法：1.确定您使用的python版本为3.11
          2.如果是，确定你的python位于
               c:/users/你的电脑名字/AppData/Local/Programs/Python/Python311/Lib/后运行setup.py
